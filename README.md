@@ -16,8 +16,8 @@ This repository documents and automates a full-featured homelab designed for ent
 ![Homelab Diagram](docs/homelab-architecture.png)
 
 ## 📦 Terraform Modules
-- [`terraform/esxi/`](terraform/esxi/) – ESXi host provisioning
-- [`terraform/ad/`](terraform/ad/) – AD domain setup
+- [`terraform/esxi/`](main.tf) – ESXi host provisioning
+- [`terraform/ad/`](main.tf) – AD domain setup
 - [`terraform/networking/`](terraform/networking/) – VLAN segmentation
 
 ## 📊 Monitoring & Traffic Flow
