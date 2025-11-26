@@ -7,10 +7,10 @@ This repository documents and automates a full-featured homelab designed for ent
 - **vCenter Server** – Centralized VM orchestration
 - **QNAP NAS (iSCSI)** – Shared storage
 - **Active Directory & DNS** – Identity and name resolution
-- **Splunk** – Log aggregation and dashboards - Need to rebuild, currently down
+- **Splunk** – Log aggregation and dashboards - **Need to rebuild, currently down**
 - **Certificate Server** – Internal PKI
-- **VMware Aria Suite Lifecycle Appliance** – Automation and lifecycle management - Need to rebuild, currently down
-- **vROPs** – Performance and capacity analytics - Need to rebuild, currently down
+- **VMware Aria Suite Lifecycle Appliance** – Automation and lifecycle management - **Need to rebuild, currently down**
+- **vROPs** – Performance and capacity analytics - **Need to rebuild, currently down**
 
 ## 📐 Architecture
 ![Homelab Diagram](docs/homelab-architecture.png)
