@@ -7,16 +7,16 @@ This repository documents and automates a full-featured homelab designed for ent
 - **vCenter Server** – Centralized VM orchestration
 - **QNAP NAS (iSCSI)** – Shared storage
 - **Active Directory & DNS** – Identity and name resolution
-- **Splunk** – Log aggregation and dashboards
+- **Splunk** – Log aggregation and dashboards - Need to rebuild, currently down
 - **Certificate Server** – Internal PKI
-- **VMware Aria Suite Lifecycle Appliance** – Automation and lifecycle management
-- **vROPs** – Performance and capacity analytics
+- **VMware Aria Suite Lifecycle Appliance** – Automation and lifecycle management - Need to rebuild, currently down
+- **vROPs** – Performance and capacity analytics - Need to rebuild, currently down
 
 ## 📐 Architecture
 ![Homelab Diagram](docs/homelab-architecture.png)
 
-## 📦 Terraform Modules
-- [`terraform/esxi/`](terraform/esxi/main.tf) – ESXi host provisioning
+## 📦 Terraform Modules - Will be learning soon
+- [`terraform/esxi/`](Terraform/esxi/main.tf) – ESXi host provisioning
 - [`terraform/ad/`](Terraform/AD/main.tf) – AD domain setup
 - [`terraform/networking/`](Terraform/Networking/main.tf) – VLAN segmentation
 
@@ -32,8 +32,8 @@ This repository documents and automates a full-featured homelab designed for ent
 
 ## 🚀 Goals
 - Practice enterprise-grade infrastructure design
-- Automate deployments with Terraform
-- Monitor and secure services with Splunk and PKI
+- Automate deployments with Terraform - Will be learning soon
+- Monitor and secure services with Splunk and PKI - Need to rebuild Splunk, currently down
 - Showcase hybrid cloud readiness and scalability
 
 ## 🤝 Contributions
